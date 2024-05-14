@@ -1,0 +1,254 @@
+{
+    "profile": "data-package",
+    "name": "ammonia-prospective-scenarios",
+    "title": "Ammonia decarbonisation pathways and their effects on life cycle assessments: Integrating future ammonia scenarios into background data for prospective LCAs",
+    "description": "Implementation of the scenarios on future ammonia supply from the Master thesis of J. Boyce, 2022.",
+    "source":"Boyce, J. C. (2022). Ammonia decarbonisation pathways and their effects on life cycle assessments: Integrating future ammonia scenarios into background data for prospective LCAs [Master’s Thesis, Leiden University and TU Delft].",
+    "version": "0.0.2",
+    "contributors":[
+        {
+        "title": "Johanna C. Boyce",
+        "email": "j.c.boyce@umail.leidenuniv.nl"
+    }
+    ],
+    "dependencies": {
+        "premise": ">=1.3.0"
+    },
+    "ecoinvent": {
+        "version": "3.8",
+        "system model": "cut-off"
+    },
+    "scenarios": {
+        "Business As Usual": [
+            {
+                "model": "image",
+                "pathway": "SSP2-Base"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-Base"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP1-Base"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP5-Base"
+            }
+        ],
+        "Sustainable development": [
+            {
+                "model": "image",
+                "pathway": "SSP2-RCP26"
+            },
+            {
+                "model": "image",
+                "pathway": "SSP2-RCP19"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-NPi"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-NDC"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-PkBudg1150"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-PkBudg500"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP1-NPi"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP1-NDC"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP1-PkBudg1150"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP1-PkBudg500"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP5-NPi"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP5-NDC"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP5-PkBudg1150"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP5-PkBudg500"
+            }
+        ]
+    },
+    "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }],
+    "resources": [
+        {
+            "path": "scenario_data/scenario_data.csv",
+            "profile": "tabular-data-resource",
+            "name": "scenario_data",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pathway",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "scenario",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "variables",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2020",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2025",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2030",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2035",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2040",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2045",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2050",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2100",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "inventories/lci-all.csv",
+            "profile": "data-resource",
+            "name": "inventories",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "database",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "location",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "categories",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "reference product",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "configuration_file/config.yaml",
+            "profile": "data-resource",
+            "name": "config",
+            "format": "yaml",
+            "mediatype": "text/yaml",
+            "encoding": "utf-8"
+        }
+    ]
+}

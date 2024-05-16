@@ -3,7 +3,7 @@
 Description
 -----------
 
-This is a repository containing scenarios that implement the projections developed in:\ 
+This is a repository containing scenarios that implement the projections developed in:
 **Closed-loop LCA of technologies deployed at large scale using modified background data**\
 *Margarita A. Charalambous, Romain Sacchi, Victor Tulus, Gonzalo Guillén Gosálbez*\
 Under review.
@@ -80,7 +80,7 @@ We introduce 11 hydrogen production pathways:
 Diesel fuel
 ********
 
-We introduce 22 diesel production pathways by Fischer-Tropsch sysnthesis by combining hydrogen and CO2.\ 
+We introduce 22 diesel production pathways by Fischer-Tropsch sysnthesis by combining hydrogen and CO2. 
 For the CO2 we use::
 * Direct air capture
 * Post-combustion capture
@@ -104,7 +104,7 @@ How to use it?
     from datapackage import Package
     
     
-    fp = r"https://raw.githubusercontent.com/MargotCha/HDfuels-prospective-scenarios/main/datapackage.json?token=GHSAT0AAAAAABRFQLPJH54SECNQQCO3BFYIY4QRBCA"
+    fp = r"https://raw.githubusercontent.com/MargotCha/HDdiesel-prospective-scenarios/main/datapackage.json?token=GHSAT0AAAAAACSIUT3TGN2FEDOVFGKKKJPAZSGACQQ"
     synfuel = Package(fp)
     
     bw.projects.set_current("your_bw_project")

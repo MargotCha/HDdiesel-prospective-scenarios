@@ -1,14 +1,14 @@
 {
     "profile": "data-package",
-    "name": "ammonia-prospective-scenarios",
-    "title": "Ammonia decarbonisation pathways and their effects on life cycle assessments: Integrating future ammonia scenarios into background data for prospective LCAs",
-    "description": "Implementation of the scenarios on future ammonia supply from the Master thesis of J. Boyce, 2022.",
-    "source":"Boyce, J. C. (2022). Ammonia decarbonisation pathways and their effects on life cycle assessments: Integrating future ammonia scenarios into background data for prospective LCAs [Master’s Thesis, Leiden University and TU Delft].",
+    "name": "HDdiesel-prospective-scenarios",
+    "title": "Closed-loop life-cycle assessment of technologies deployed at large scale using modified background data",
+    "description": "Implementation of the scenarios on future hydrogen",
+    "source":"Charalambous et al. Closed-loop life-cycle assessment of technologies deployed at large scale using modified background data [submitted in Sustainable Productiona and Consumption].",
     "version": "0.0.2",
     "contributors":[
         {
-        "title": "Johanna C. Boyce",
-        "email": "j.c.boyce@umail.leidenuniv.nl"
+        "title": "Margarita A. Charalambous",
+        "email": "margarita.charalambous@chem.ethz.ch"
     }
     ],
     "dependencies": {
@@ -20,10 +20,6 @@
     },
     "scenarios": {
         "Business As Usual": [
-            {
-                "model": "image",
-                "pathway": "SSP2-Base"
-            },
             {
                 "model": "remind",
                 "pathway": "SSP2-Base"
@@ -38,14 +34,6 @@
             }
         ],
         "Sustainable development": [
-            {
-                "model": "image",
-                "pathway": "SSP2-RCP26"
-            },
-            {
-                "model": "image",
-                "pathway": "SSP2-RCP19"
-            },
             {
                 "model": "remind",
                 "pathway": "SSP2-NPi"

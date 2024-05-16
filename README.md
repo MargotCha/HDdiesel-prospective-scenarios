@@ -3,8 +3,7 @@
 Description
 -----------
 
-This is a repository containing scenarios that implement the projections developed
-in:\ 
+This is a repository containing scenarios that implement the projections developed in:\ 
 **Closed-loop LCA of technologies deployed at large scale using modified background data**\
 *Margarita A. Charalambous, Romain Sacchi, Victor Tulus, Gonzalo Guillén Gosálbez*\
 Under review.

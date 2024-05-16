@@ -3,21 +3,17 @@
 
 cff-version: 1.2.0
 title: >-
-  Boyce, J. C. (2022). Ammonia decarbonisation pathways
-  and their effects on life cycle assessments: Integrating
-  future ammonia scenarios into background data for prospective
-  LCAs. [Master’s Thesis, Leiden University and TU Delft]
+  Charalambous M. A. (2024). Closed-loop life-cycle assessment of technologies deployed at scale using modified background data. Sustainable Production and Consumption. [under review]
 message: Please cite this dataset using these metadata.
 type: dataset
 authors:
-  - given-names: Johanna
-    family-names: Boyce
-    email: j.c.boyce@umail.leidenuniv.nl
+  - given-names: Margarita
+    family-names: Charalambous
+    email: margarita.charalambous@chem.ethz.ch
     affiliation: >-
-      Faculty of Science - Institute of environmental
-      sciences (CML)
+        Department of Chemistry and Bioscience, ETH Zurich, Vladimir-Prelog-Weg 1, 8093 Zurich, Switzerland
 repository-code: >-
-  https://github.com/premise-community-scenarios/ammonia-prospective-scenarios
+  https://github.com/MargotCha/HDdiesel-prospective-scenarios.git
 abstract: >-
   Scenario to integrate the future supply of
-  ammonia into the premise Python package
+  synthetic diesel into the premise Python package

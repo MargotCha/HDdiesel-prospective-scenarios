@@ -81,7 +81,7 @@ Diesel fuel
 ********
 
 We introduce 22 diesel production pathways by Fischer-Tropsch sysnthesis by combining hydrogen and CO2. 
-For the CO2 we use::
+For the CO2 we use:
 * Direct air capture
 * Post-combustion capture
 

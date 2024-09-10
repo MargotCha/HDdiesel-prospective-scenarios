@@ -3,9 +3,8 @@
 Description
 -----------
 
-This is a repository containing scenarios that implement the projections developed in:
-**Integrating emerging technologies deployed at scale within prospective life cycle assessment**\
-*Margarita A. Charalambous, Romain Sacchi, Victor Tulus, Gonzalo Guillén Gosálbez*
+This is a repository containing scenarios that implement the projections developed the following publication:\
+**Integrating emerging technologies deployed at scale within prospective life cycle assessment**, *Charalambous et al. (2024)*
 
 It is meant to be used in `premise` in addition to a global IAM scenario, 
 to analyze synthetic diesel for heavy-duty trucks. 
@@ -17,7 +16,7 @@ for trucks.
 Sourced from publication
 ------------------------
 
-If you use this data package in your research, please cite the following publication:
+If you use this data package in your research, please cite the following publication:\
 **Charalambous et al., 2024. Integrating emerging technologies deployed at scale within prospective life cycle assessment, Sustainable Production and Consumption.**\
 DOI: https://doi.org/10.1016/j.spc.2024.08.016
 
@@ -67,7 +66,7 @@ This external scenario introduces synthetic diesel fuel destined to replace the 
 
 We introduce efficiency improvements in hydrogen production and electrolysis.
 
-We include 11 *hydrogen production pathways* and two technologies for capturing CO₂:
+We include 11 *hydrogen production pathways* and two *technologies for capturing CO₂*:
 * For **H<sub>2</sub>**: 10 PEM electrolysis and 1 bio-based
 * For **CO<sub>2</sub>**: one direct air capture (DAC) and one post-combustion capture
 
@@ -79,7 +78,7 @@ As shown in the [Integrated-LCA repository](https://github.com/MargotCha/Integra
 
 Flow diagram
 ------------
-The locations that the synthetic diesel which is included in this data package will be added are shown with light blue in figure:
+The locations that the synthetic diesel which is included in this data package will be added are shown with light blue in figure:\
 <img src="https://github.com/MargotCha/HDdiesel-prospective-scenarios/blob/main/flow_diagram.png" width="300" />
 
 How to use it?

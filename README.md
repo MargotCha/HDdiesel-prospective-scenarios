@@ -78,9 +78,9 @@ As shown in the [Integrated-LCA repository](https://github.com/MargotCha/Integra
 
 Flow diagram
 ------------
-The locations that the synthetic diesel which is included in this data package will be added are shown with light blue in figure:\
+The locations that the synthetic diesel which is included in this data package will be added are shown with light blue in figure:
 <div align="left">
-<img src="https://github.com/MargotCha/HDdiesel-prospective-scenarios/blob/main/flow_diagram.png" width="300" />
+<img src="https://github.com/MargotCha/HDdiesel-prospective-scenarios/blob/main/flow_diagram.png" width="400" />
 
 How to use it?
 --------------

@@ -18,8 +18,7 @@ Sourced from publication
 ------------------------
 
 If you use this data package in your research, please cite the following publication:
-**Integrating emerging technologies deployed at scale within prospective life cycle assessment**\
-*Margarita A. Charalambous, Romain Sacchi, Victor Tulus, Gonzalo Guillén Gosálbez*\
+**Charalambous et al., 2024. Integrating emerging technologies deployed at scale within prospective life cycle assessment, Sustainable Production and Consumption.**\
 DOI: https://doi.org/10.1016/j.spc.2024.08.016
 
 Data validation 
@@ -64,34 +63,24 @@ The following coupling is done between IAM scenarios and the ammonia market scen
 What does this do?
 ------------------
 
-This external scenario introduces synthetic diesel fuel in the fuel blend
-for heavy-duty trucks.
+This external scenario introduces synthetic diesel fuel destined to replace the synthetic fraction of the diesel market which is fueling heavy-duty trucks.
 
-Hydrogen
-********
+We introduce efficiency improvements in hydrogen production and electrolysis.
 
-Efficiency improvements in hydrogen production and electrolysis are introduced.
+We include 11 *hydrogen production pathways* and two technologies for capturing CO₂; *direct air capture*. Amongst the hydrogen production pathways:
+* For **H<sub>2</sub>**: 10 PEM electrolysis and 1 bio-based
+* For **CO<sub>2</sub>**: one direct air capture (DAC) and one post-combustion capture
 
-We introduce 11 hydrogen production pathways:
-* 10 PEM electrolysis
-* 1 bio-based
+Resulting in **22 diesel production pathways** by combining **H<sub>2</sub>** and **CO<sub>2</sub>**.
 
-Diesel fuel
-********
-
-We introduce 22 diesel production pathways by Fischer-Tropsch sysnthesis by combining hydrogen and CO2. 
-For the CO2 we use:
-* Direct air capture
-* Post-combustion capture
-
-This market re-links to ammonia-producing activities 
-that consume hydrogen throughout the database.
+Here we do not modify the technosphere using specific keywords of premise, but we perform the modifications later using inventory matrices. 
+As shown in the [Integrated-LCA repository](https://github.com/MargotCha/Integrated-LCA-master) and the IntLCA package that can be installed through [pypi](https://pypi.org/project/IntLCA-dev/). 
 
 
 Flow diagram
 ------------
-
-![diagram diesel markets](assets/flow_diagram.png)
+The locations that the synthetic diesel which is included in this data package will be added are shown with light blue in figure:
+![diagram diesel markets](flow_diagram.png)
 
 How to use it?
 --------------

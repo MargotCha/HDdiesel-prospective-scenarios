@@ -67,7 +67,7 @@ This external scenario introduces synthetic diesel fuel destined to replace the 
 
 We introduce efficiency improvements in hydrogen production and electrolysis.
 
-We include 11 *hydrogen production pathways* and two technologies for capturing CO₂; *direct air capture*. Amongst the hydrogen production pathways:
+We include 11 *hydrogen production pathways* and two technologies for capturing CO₂:
 * For **H<sub>2</sub>**: 10 PEM electrolysis and 1 bio-based
 * For **CO<sub>2</sub>**: one direct air capture (DAC) and one post-combustion capture
 
@@ -80,7 +80,7 @@ As shown in the [Integrated-LCA repository](https://github.com/MargotCha/Integra
 Flow diagram
 ------------
 The locations that the synthetic diesel which is included in this data package will be added are shown with light blue in figure:
-![diagram diesel markets](flow_diagram.png)
+<img src="https://github.com/MargotCha/HDdiesel-prospective-scenarios/blob/main/flow_diagram.png" width="300" />
 
 How to use it?
 --------------

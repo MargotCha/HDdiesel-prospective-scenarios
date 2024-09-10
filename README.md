@@ -4,24 +4,23 @@ Description
 -----------
 
 This is a repository containing scenarios that implement the projections developed in:
-**Closed-loop LCA of technologies deployed at large scale using modified background data**\
-*Margarita A. Charalambous, Romain Sacchi, Victor Tulus, Gonzalo Guillén Gosálbez*\
-Under review.
+**Integrating emerging technologies deployed at scale within prospective life cycle assessment**\
+*Margarita A. Charalambous, Romain Sacchi, Victor Tulus, Gonzalo Guillén Gosálbez*
 
 It is meant to be used in `premise` in addition to a global IAM scenario, 
 to analyze synthetic diesel for heavy-duty trucks. 
 
 This data package contains all the files necessary for `premise` to implement
 this scenario and modify market- and region specific supply shares
-for fuel for trucks.
+for trucks.
 
 Sourced from publication
 ------------------------
 
 If you use this data package in your research, please cite the following publication:
-**Closed-loop LCA of technologies deployed at large scale using modified background data**\
+**Integrating emerging technologies deployed at scale within prospective life cycle assessment**\
 *Margarita A. Charalambous, Romain Sacchi, Victor Tulus, Gonzalo Guillén Gosálbez*\
-Under review.
+DOI: https://doi.org/10.1016/j.spc.2024.08.016
 
 Data validation 
 ---------------

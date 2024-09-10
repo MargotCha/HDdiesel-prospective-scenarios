@@ -4,7 +4,7 @@ Description
 -----------
 
 This is a repository containing scenarios that implement the projections developed the following publication:\
-**Integrating emerging technologies deployed at scale within prospective life cycle assessment**, *Charalambous et al. (2024)*
+**Integrating emerging technologies deployed at scale within prospective life cycle assessment**, *Charalambous et al. (2024).*
 
 It is meant to be used in `premise` in addition to a global IAM scenario, 
 to analyze synthetic diesel for heavy-duty trucks. 
@@ -20,15 +20,6 @@ If you use this data package in your research, please cite the following publica
 **Charalambous et al., 2024. Integrating emerging technologies deployed at scale within prospective life cycle assessment, Sustainable Production and Consumption.**\
 DOI: https://doi.org/10.1016/j.spc.2024.08.016
 
-Data validation 
----------------
-
-xxxx
-
-Test 
-----
-
-xxxx
 
 Ecoinvent database compatibility
 --------------------------------
@@ -75,6 +66,7 @@ Resulting in **22 diesel production pathways** by combining **H<sub>2</sub>** an
 Here we do not modify the technosphere using specific keywords of premise, but we perform the modifications later using inventory matrices. 
 As shown in the [Integrated-LCA repository](https://github.com/MargotCha/Integrated-LCA-master) and the IntLCA package that can be installed through [pypi](https://pypi.org/project/IntLCA-dev/). 
 
+Despite the usage for trucks this package can be used in any othe application that requires synthetic diesel pathways. 
 
 Flow diagram
 ------------
